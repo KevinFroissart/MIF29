@@ -34,6 +34,7 @@ public class tp2 {
 
         while(!e.gcd(phiN).equals(BigInteger.ONE)) {
             e = e.add(BigInteger.ONE);
+            System.out.println("Mon e est :" + e);
         }
 
         // d pour decrypt, clé de decryption
